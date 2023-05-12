@@ -1,0 +1,107 @@
+.home {
+    background-color: var(--first-bg-color);
+}
+
+.descrition-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 50%;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    color: var(--font-color);
+}
+
+.main-subtitle {
+    -webkit-text-stroke: 0.5px var(--blue-color);
+    color: var(--first-bg-color);
+}
+
+.main-subtitle-animation {
+    color: var(--blue-color);
+}
+
+.main-text {
+    color: var(--font-color);
+}
+
+.hire {
+    width: 8rem;
+    height: 3rem;
+    border: 1px solid var(--blue-color);
+    color: var(--blue-color);
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    transition: linear 300ms;
+    text-decoration: none;
+}
+
+
+.hire:hover {
+    background-color: var(--blue-color);
+    color: var(--first-bg-color);
+}
+
+.my-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    border: 10px solid var(--blue-color);
+    transition: 1000ms linear;
+}
+
+.home div:nth-child(2) {
+     border: 2px solid var(--blue-color);
+    border-radius: 300px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .teste {
+    width: 50%;
+    height: 10vh;
+    background-color: red;
+    transition: 500ms linear;
+}
+
+.teste1 {
+    width: 25%;
+} */
+
+@media screen and (max-width: 480px){
+    .home {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .descrition-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .my-photo-container {
+        display: none;
+    }
+
+    .home div:nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}

@@ -1,0 +1,109 @@
+.contact {
+    position: relative;
+    background-color: var(--first-bg-color);
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.contact-adress {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+}
+
+.perfis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.perfis div {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 4vw;
+    border: 1px solid var(--blue-color);
+    transition: 400ms linear;
+}
+
+.perfis div:hover {
+    background-color: var(--blue-color);
+}
+
+.link-perfis {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[data-perfil="git-hub"] {
+    width: 70%;
+}
+
+[data-perfil="git-hub"] path {
+    transition: 400ms linear;
+}
+
+
+.perfis div:hover [data-perfil="git-hub"] path {
+    fill: var(--first-bg-color);
+}
+
+[data-perfil="alura"] {
+    width: 100%;
+}
+
+[data-perfil="alura"] g path {
+    transition: 400ms linear;
+}
+
+.perfis div:hover [data-perfil="alura"] g path {
+    fill: var(--first-bg-color);
+}
+
+[data-perfil="linkedin"] {
+    width: 50%;
+    transition: 400ms linear;
+}
+
+.perfis div:hover [data-perfil="linkedin"] {
+    fill: var(--first-bg-color);
+}
+
+[data-perfil="free-code-camp"] {
+    width: 80%;
+    transition: 400ms linear;
+}
+
+.perfis div:hover [data-perfil="free-code-camp"] {
+    fill: var(--first-bg-color);
+}
+
+@media screen and (max-width: 480px) {
+    .contact-adress {
+        height: 40vh;
+        text-align: center;
+    }
+
+    .perfis {
+        width: 80%;
+    }
+
+    .perfis div {
+        width: 13vw;
+        height: 13vw;
+        border-radius: 13vw;
+        border: 1px solid var(--blue-color);
+        transition: 400ms linear;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}

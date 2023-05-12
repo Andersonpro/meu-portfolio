@@ -1,0 +1,47 @@
+.skills {
+    background-color: var(--first-bg-color);
+    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.skills div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    padding: 1rem;
+    background-color: #081524;
+    border: 1px solid var(--blue-color);
+    border-radius: 0.5em;
+    transition: 300ms ease;
+}
+
+.skills div:hover {
+    background-color: var(--second-bg-color);
+}
+
+@media screen and (max-width: 480px){
+    .skills {
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: unset;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 0.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .skills div {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}

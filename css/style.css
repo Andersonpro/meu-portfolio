@@ -1,0 +1,36 @@
+:root {
+    --first-bg-color: #081524;
+    --second-bg-color: #0b1d32;
+    --blue-color: #99c9ff;
+    --font-color: #FEFEFE;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+p {
+    line-height: 1.7rem;
+}
+
+@media screen and (max-width: 480px) {
+    section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--font-color);
+    }
+
+}
+
+@media screen and (max-width: 768) {
+
+}

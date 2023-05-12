@@ -1,0 +1,81 @@
+.about {
+    background-color: var(--second-bg-color);
+    flex-direction: column;
+    justify-content: center;
+}
+
+.border-animation-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-photo-animation {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 20vw;
+    border: 0.8vw solid var(--blue-color);
+    transition: 1000ms linear;
+}
+
+.border-animation{
+    position: absolute;
+    width: 22vw;
+    height: 22vw;
+    border: dashed 0.4vw;
+    border-radius: 25vw;
+    border-color: var(--second-bg-color) var(--blue-color) var(--second-bg-color) var(--blue-color);
+    animation: border-animation 5s infinite;
+}
+
+@keyframes border-animation {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+#programa-desenvolve {
+    color: var(--blue-color);
+}
+
+.about p {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#programa-desenvolve {
+    color: var(--blue-color);
+}
+
+@media screen and (max-width: 480px){
+
+    .about p {
+        margin-top: 40%;
+    }
+
+    .my-photo-animation {
+        width: 60vw;
+        height: 60vw;
+        border-radius: 60vw;
+        border: 0.8vw solid var(--blue-color);
+        transition: 1000ms linear;
+    }
+    
+    .border-animation {
+        width: 65vw;
+        height: 65vw;
+        border: dashed 1vw;
+        border-radius: 65vw;
+        border-color: var(--second-bg-color) var(--blue-color) var(--second-bg-color) var(--blue-color);
+        animation: border-animation 5s infinite;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
