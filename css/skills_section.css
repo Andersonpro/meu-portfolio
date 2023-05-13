@@ -1,47 +1,53 @@
 .skills {
     background-color: var(--first-bg-color);
-    gap: 5%;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    padding-top: 5vh;
+    padding-bottom: 2.5vh;
 }
 
-.skills div {
+.container-skills {
+    width: 100%;
+    height: 80%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 20%;
-    padding: 1rem;
-    background-color: #081524;
-    border: 1px solid var(--blue-color);
-    border-radius: 0.5em;
-    transition: 300ms ease;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10%;
 }
 
-.skills div:hover {
-    background-color: var(--second-bg-color);
+.skills [data-skills] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25%;
+    height: 10%;
+    font-size: 1.5rem;
 }
 
-@media screen and (max-width: 480px){
+[data-skills] div {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: blue;
+    width: 100%;
+    height: 20px;
+}
+
+@media screen and (max-width: 480px) {
+
     .skills {
         height: 100%;
-        flex-direction: column;
-        flex-wrap: unset;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        gap: 0.5rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
     }
 
-    .skills div {
-        width: 70%;
+    .skills [data-skills] {
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .skills {
+        height: 100%;
+    }
 
+    .skills [data-skills] {
+        width: 100%;
+    }
 }

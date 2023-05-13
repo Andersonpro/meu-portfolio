@@ -57,7 +57,7 @@
 }
 
 .home div:nth-child(2) {
-     border: 2px solid var(--blue-color);
+    border: 2px solid var(--blue-color);
     border-radius: 300px;
     padding: 5px;
     display: flex;
@@ -65,18 +65,7 @@
     align-items: center;
 }
 
-/* .teste {
-    width: 50%;
-    height: 10vh;
-    background-color: red;
-    transition: 500ms linear;
-}
-
-.teste1 {
-    width: 25%;
-} */
-
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     .home {
         padding-top: 2rem;
         padding-bottom: 2rem;
@@ -102,6 +91,28 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .home {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
 
+    .descrition-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .my-photo-container {
+        display: none;
+    }
+
+    .home div:nth-child(2) {
+        display: none;
+    }
 }

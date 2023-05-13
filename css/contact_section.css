@@ -23,9 +23,9 @@
 }
 
 .perfis div {
-    width: 4vw;
-    height: 4vw;
-    border-radius: 4vw;
+    width: calc(2vw + 30px);
+    height: calc(2vw + 30px);
+    border-radius: calc(2vw + 30px);
     border: 1px solid var(--blue-color);
     transition: 400ms linear;
 }
