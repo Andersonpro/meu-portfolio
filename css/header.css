@@ -59,7 +59,7 @@
     width: 100%;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     .nav-list {
         background-color: var(--first-bg-color);
         position: absolute;
@@ -80,7 +80,7 @@
         opacity: 1;
     }
 
-    .nav-list li{
+    .nav-list li {
         padding-top: 1vh;
         padding-bottom: 1vh;
         width: 100%;
@@ -88,11 +88,17 @@
         justify-content: center;
     }
 
-    .nav-list li:hover{
+    .nav-list li:hover {
         background-color: var(--second-bg-color);
     }
+
     .nav-list a * {
         text-align: center;
+    }
+
+    [data-nav] {
+        text-align: center;
+        width: 100%;
     }
 
     .bars-container {
@@ -105,52 +111,53 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
-     .nav-list {
-         background-color: var(--first-bg-color);
-         position: absolute;
-         top: 100%;
-         left: -100vw;
-         justify-content: center;
-         align-items: center;
-         flex-direction: column;
-         width: 100%;
-         z-index: 1100;
-         transition: 500ms ease;
-         font-size: 1.5rem;
-         opacity: 0;
-     }
- 
-     .nav-list-vertical {
-         left: 0;
-         opacity: 1;
-     }
- 
-     .nav-list li{
-         padding-top: 1vh;
-         padding-bottom: 1vh;
-         width: 100%;
-         display: flex;
-         justify-content: center;
-     }
- 
-     .nav-list li:hover{
-         background-color: var(--second-bg-color);
-     }
-     [data-nav] {
-         text-align: center;
-         width: 100%;
-     }
- 
-     .bars-container {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-     }
- 
- }
+    .nav-list {
+        background-color: var(--first-bg-color);
+        position: absolute;
+        top: 100%;
+        left: -100vw;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        z-index: 1100;
+        transition: 500ms ease;
+        font-size: 1.5rem;
+        opacity: 0;
+    }
 
- @media screen and (max-height: 210px){
+    .nav-list-vertical {
+        left: 0;
+        opacity: 1;
+    }
+
+    .nav-list li {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-list li:hover {
+        background-color: var(--second-bg-color);
+    }
+
+    [data-nav] {
+        text-align: center;
+        width: 100%;
+    }
+
+    .bars-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-height: 210px) {
     [data-nav] {
         font-size: 10vh;
     }
- }
+}

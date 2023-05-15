@@ -20,17 +20,3 @@ body {
 p {
     line-height: 1.7rem;
 }
-
-@media screen and (max-width: 480px) {
-    section {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: var(--font-color);
-    }
-
-}
-
-@media screen and (max-width: 768) {
-
-}

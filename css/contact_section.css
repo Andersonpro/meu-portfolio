@@ -15,6 +15,30 @@
     margin-bottom: 10vh;
 }
 
+.mail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail-container svg {
+    margin-right: 1rem;
+    fill: var(--blue-color);
+    width: 8%;
+}
+
+.whats-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whats-container svg {
+    margin-right: 1rem;
+    fill: var(--blue-color);
+    width: 9%;
+}
+
 .perfis {
     display: flex;
     justify-content: space-between;
@@ -49,7 +73,6 @@
 [data-perfil="git-hub"] path {
     transition: 400ms linear;
 }
-
 
 .perfis div:hover [data-perfil="git-hub"] path {
     fill: var(--first-bg-color);
@@ -86,10 +109,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    .contact {
-        
-    }
-    
+
     .contact-adress {
         height: 40vh;
         text-align: center;
@@ -100,24 +120,10 @@
     }
 }
 
-@media screen and(min-width: 481px) and (max-width: 768px) {
-    
-}
-
-@media screen and (max-height: 550px){
+@media screen and (max-height: 550px) {
     .contact {
         height: 100%;
         padding-top: 20%;
         padding-bottom: 30%;
     }
-
-    /* .contact-adress {
-        margin-bottom: 30px;
-    }
-    
-    .perfis {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    } */
 }

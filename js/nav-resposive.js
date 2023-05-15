@@ -12,26 +12,25 @@ window.addEventListener('load', () => {
 })
 
 barsMenu.addEventListener('click', () => {
-    if(barsMenuActive == false){
+    if (barsMenuActive == false) {
         barsMenu.innerHTML = crossImg;
         barsMenuActive = true;
         navList.classList.add('nav-list-vertical');
     }
-    else if(barsMenuActive) {
+    else if (barsMenuActive) {
         barsMenu.innerHTML = barsImg;
         barsMenuActive = false;
         navList.classList.remove('nav-list-vertical');
     }
-    
+
 })
 
-
 itensNav.forEach((elemento) => {
-    
+
     elemento.addEventListener('click', () => {
         barsMenu.innerHTML = barsImg;
         barsMenuActive = false;
         navList.classList.remove('nav-list-vertical');
     })
-    
+
 })

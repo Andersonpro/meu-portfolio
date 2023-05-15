@@ -21,7 +21,7 @@
     width: 25%;
     height: 10%;
     min-height: 42px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 [data-skills] div {
@@ -40,19 +40,23 @@
         padding-bottom: 10%;
     }
 
-    .skills [data-skills] {
+    [data-skills] {
         width: 100%;
+        margin-bottom: 20px;
     }
+
+    
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+
     .skills {
-        padding-top: 20%;
         height: 100%;
+        padding-top: 20%;
         padding-bottom: 10%;
     }
 
-    .skills [data-skills] {
+    [data-skills] {
         width: 100%;
     }
 }
