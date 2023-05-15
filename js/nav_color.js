@@ -37,5 +37,6 @@ window.addEventListener('scroll', () => {
         if(i != verificador){
             navItensArray[i].classList.remove('nav-active');
         }
+
     }
 })

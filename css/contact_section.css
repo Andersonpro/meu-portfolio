@@ -86,6 +86,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    .contact {
+        
+    }
+    
     .contact-adress {
         height: 40vh;
         text-align: center;
@@ -94,16 +98,26 @@
     .perfis {
         width: 80%;
     }
-
-    .perfis div {
-        width: 13vw;
-        height: 13vw;
-        border-radius: 13vw;
-        border: 1px solid var(--blue-color);
-        transition: 400ms linear;
-    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and(min-width: 481px) and (max-width: 768px) {
     
+}
+
+@media screen and (max-height: 550px){
+    .contact {
+        height: 100%;
+        padding-top: 20%;
+        padding-bottom: 30%;
+    }
+
+    /* .contact-adress {
+        margin-bottom: 30px;
+    }
+    
+    .perfis {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } */
 }

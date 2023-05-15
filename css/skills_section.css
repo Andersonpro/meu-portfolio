@@ -14,27 +14,30 @@
     gap: 10%;
 }
 
-.skills [data-skills] {
+[data-skills] {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 25%;
     height: 10%;
+    min-height: 42px;
     font-size: 1.5rem;
 }
 
 [data-skills] div {
     margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: blue;
     width: 100%;
     height: 20px;
+    transition: 500ms linear;
 }
+
 
 @media screen and (max-width: 480px) {
 
     .skills {
         height: 100%;
+        padding-top: 20%;
+        padding-bottom: 10%;
     }
 
     .skills [data-skills] {
@@ -44,10 +47,18 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .skills {
+        padding-top: 20%;
         height: 100%;
+        padding-bottom: 10%;
     }
 
     .skills [data-skills] {
         width: 100%;
+    }
+}
+
+@media screen and (max-height: 550px){
+    .container-skills {
+        gap: 5px;
     }
 }

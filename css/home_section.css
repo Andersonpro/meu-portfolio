@@ -31,6 +31,7 @@
 .hire {
     width: 8rem;
     height: 3rem;
+    min-height: 3rem;
     border: 1px solid var(--blue-color);
     color: var(--blue-color);
     border-radius: 0.4rem;
@@ -114,5 +115,26 @@
 
     .home div:nth-child(2) {
         display: none;
+    }
+}
+
+@media screen and (max-height: 550px){
+    .home {
+        height: 100%;
+        padding-top: 20%;
+        padding-bottom: 10%;
+    }
+
+    .main-title {
+        padding-bottom: 5%;
+    }
+    
+    .main-subtitle {
+        padding-bottom: 5%;
+    }
+
+    
+    .main-text {
+        padding-bottom: 5%;
     }
 }

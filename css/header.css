@@ -59,11 +59,7 @@
     width: 100%;
 }
 
-@media screen and (max-width: 480px) {
-    .header  {
-       padding-top: 5%;
-       padding-bottom: 5%;
-    }
+@media screen and (max-width: 480px){
     .nav-list {
         background-color: var(--first-bg-color);
         position: absolute;
@@ -107,11 +103,8 @@
 
 }
 
-@media screen and (max-width: 768px) {
-    .header  {
-        padding-top: 5%;
-        padding-bottom: 5%;
-     }
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
      .nav-list {
          background-color: var(--first-bg-color);
          position: absolute;
@@ -143,8 +136,9 @@
      .nav-list li:hover{
          background-color: var(--second-bg-color);
      }
-     .nav-list a * {
+     [data-nav] {
          text-align: center;
+         width: 100%;
      }
  
      .bars-container {
@@ -153,4 +147,10 @@
          align-items: center;
      }
  
+ }
+
+ @media screen and (max-height: 210px){
+    [data-nav] {
+        font-size: 10vh;
+    }
  }
