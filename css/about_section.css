@@ -19,7 +19,7 @@
     transition: 1000ms linear;
 }
 
-.border-animation{
+.border-animation {
     position: absolute;
     width: calc(170px + 10vw);
     height: calc(170px + 10vw);
@@ -33,6 +33,7 @@
     0% {
         transform: rotateZ(0deg);
     }
+
     100% {
         transform: rotateZ(360deg);
     }
@@ -51,7 +52,7 @@
     color: var(--blue-color);
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
 
     .about p {
         margin-top: 40%;
@@ -64,7 +65,7 @@
     }
 }
 
-@media screen and (max-height: 550px){
+@media screen and (max-height: 550px) {
     .about {
         height: 100%;
         padding-top: 20%;

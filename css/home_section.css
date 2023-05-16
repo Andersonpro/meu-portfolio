@@ -118,7 +118,7 @@
     }
 }
 
-@media screen and (max-height: 550px){
+@media screen and (max-height: 550px) {
     .home {
         height: 100%;
         padding-top: 20%;
@@ -128,12 +128,11 @@
     .main-title {
         padding-bottom: 5%;
     }
-    
+
     .main-subtitle {
         padding-bottom: 5%;
     }
 
-    
     .main-text {
         padding-bottom: 5%;
     }
