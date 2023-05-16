@@ -1,6 +1,6 @@
-# Meu portfólio
+# Meu portfolio
 
-Criando um portifólio e testando algumas funcionalidades do HTML, CSS e JavaScript
+Criando um portfolio e testando algumas funcionalidades do HTML, CSS e JavaScript
 
 # Questões a resolver
 
