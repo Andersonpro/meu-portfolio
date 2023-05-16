@@ -1,4 +1,4 @@
-# Meu portifólio
+# Meu portfólio
 
 Criando um portifólio e testando algumas funcionalidades do HTML, CSS e JavaScript
 
