@@ -42,7 +42,7 @@ skillsBars.forEach((elemento) => {
             bar.style = `background-image: linear-gradient(to right, var(--blue-color) ${porcentagem}, var(--second-bg-color) ${porcentagem});`;
             break;
         case 'mongo-db':
-            var porcentagem = '0%';
+            var porcentagem = '10%';
             skillName.innerText += `: ${porcentagem}`;
             bar.style = `background-image: linear-gradient(to right, var(--blue-color) ${porcentagem}, var(--second-bg-color) ${porcentagem});`;
             break;
@@ -52,17 +52,17 @@ skillsBars.forEach((elemento) => {
             bar.style = `background-image: linear-gradient(to right, var(--blue-color) ${porcentagem}, var(--second-bg-color) ${porcentagem});`;
             break;
         case 'type-script':
-            var porcentagem = '0%';
+            var porcentagem = '30%';
             skillName.innerText += `: ${porcentagem}`;
             bar.style = `background-image: linear-gradient(to right, var(--blue-color) ${porcentagem}, var(--second-bg-color) ${porcentagem});`;
             break;
             case 'react':
-                var porcentagem = '0%';
+                var porcentagem = '30%';
                 skillName.innerText += `: ${porcentagem}`;
                 bar.style = `background-image: linear-gradient(to right, var(--blue-color) ${porcentagem}, var(--second-bg-color) ${porcentagem});`;
                 break;
                 case 'lgpd':
-            var porcentagem = '0%';
+            var porcentagem = '10%';
             skillName.innerText += `: ${porcentagem}`;
             bar.style = `background-image: linear-gradient(to right, var(--blue-color) ${porcentagem}, var(--second-bg-color) ${porcentagem});`;
             break;
